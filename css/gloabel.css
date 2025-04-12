@@ -1,0 +1,36 @@
+:root {
+  --text--color: #453830;
+  --background--color: #e0ccbd;
+  --h1--color: #d0b59f;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    width: calc(576px - 60px);
+  }
+}
+@media (min-width: 768px) { 
+  .container {
+    width: calc(768px - 60px);
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: calc(992px - 60px);
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: calc(1200px - 60px);
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: calc(1400px - 60px);
+  }
+}
