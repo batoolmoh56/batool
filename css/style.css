@@ -77,11 +77,11 @@ header .container aside {
     display: block;
     color: var(--text--color);
     padding: 10px;
-    border-radius: 20px;
     transition: 0.5s;
+    text-transform: capitalize;
 }
-.container aside li a:hover {
-    transform: scale(1.1);
+.container aside li a {
+    border-bottom: 1px solid var(--text--color);
 }
 /* START RESPUNSIVE HEADER */
 @media (max-width: 992px) {
