@@ -103,7 +103,7 @@ header .container aside {
 
 /* START MAIN */
 main {
-    background-image: url(/image/main\ photo.jpg);
+    /* background-image: url(/image/main\ photo.jpg); */
     /* background-size: contain; */
     height: calc(100vh - 80px);
 }
@@ -122,11 +122,11 @@ main .container p {
 }
 main .container h1 {
     font-weight: 900;
-    font-size: 55px;
+    font-size: 90px;
 }
 main .container p {
-    font-size: 25px;
-    opacity: 60%;
+    font-size: 40px;
+    opacity: 90%;
 }
 main .container a {
     text-transform: capitalize;
@@ -136,8 +136,12 @@ main .container a {
     border-radius: 20px;
     color: var(--text--color);
     background-color: var(--background--color);
+    transition: .2s;
 }
-
+main .container a:hover {
+    transform: scale(1.1);
+    opacity: 70%;
+}
 @media (max-width: 992px) {
     main {
     background-size: 1200px;
